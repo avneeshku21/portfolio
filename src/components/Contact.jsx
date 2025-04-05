@@ -1,7 +1,11 @@
 import React from "react";
 
 const Contact = () => {
+<<<<<<< HEAD
   const contactInfo = [
+=======
+  const contact_info = [
+>>>>>>> 828cf8933547e85881362efade3e7d85a27c820f
     { logo: "mail", text: "preetidiwakar23@navgurukul.org" },
     { logo: "call-outline", text: "+91 8303435267" },
     { logo: "location", text: "Kanpur, India" },

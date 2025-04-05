@@ -7,24 +7,34 @@ import "swiper/css/pagination";
 const Project = () => {
   const projects = [
     {
-      name: "Food Website",
-      live_link: "https://food-website-l2vd.vercel.app/",
+      // img: projectTwo,
+      name: "Tic tac  toc",
+      link: "https://game-project-seven-flax.vercel.app/",
+      
     },
     {
-      name: "Movie Database API",
-      live_link: "https://movie-project-zeta-two.vercel.app/",
+      // img: projectOne,
+      name: "Book",
+      link: "https://bookproject-preetidiwakargithubs-projects.vercel.app/",
+      
+    },
+       {
+      // img: projectThree,
+      name: "Lorem Text",
+      link: "https://lorem-pink.vercel.app/",
+     
     },
     {
-      name: "Book Website",
-      live_link: "https://bookproject-preetidiwakargithubs-projects.vercel.app/",
-    },
-    {
-      name: "Menu Website",
-      live_link: "https://restaurants-menu-six.vercel.app/",
+      // img: projectFour,
+      name: "Food Menu",
+      link:
+        "https://restaurants-menu-six.vercel.app/",
+      
     },
     {
       name: "Season Gallery",
-      live_link: "https://restaurants-menu-six.vercel.app/",
+      link: "",
+    
     },
   ];
 

@@ -15,10 +15,7 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+           ​A front-end developer is a professional who specializes in crafting the visual and interactive elements of websites and web applications that users engage with directly. Utilizing a combination of technologies such as HTML for structuring content, CSS for styling and layout, and JavaScript for adding interactivity, they ensure that the user interface is not only aesthetically pleasing but also functional and responsive across various devices and browsers. Their role is pivotal in translating design concepts into functional code, collaborating closely with designers and back-end developers to create seamless and efficient user experiences. By focusing on performance optimization and accessibility, front-end developers play a crucial role in enhancing the overall usability and satisfaction of web platforms. ​
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
