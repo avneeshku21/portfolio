@@ -4,19 +4,18 @@ const Education = () => {
   const educationDetails = [
     {
       logo: "logo-arrow",
-      degree: 'Bachelor of Technology in Information Technology',
-      institution: 'Bareilly, UP',
+      degree: 'Master of Arts CSJM University Kanpur',
+      institution: 'Kanpur, UP',
       grades: 'CGPA: 7.58',
-      year: ' [2020-2024]',
-      desc: "I am currently pursuing a Bachelor's degree in Infromation technology at MJP,  I have a CGPA of 7.58.",
-    },
+      year: ' [2020-2022]',
+      desc: "I Completed  my Master of Arts CSJM University Kanpur  },
     {
       logo: "logo-play",
       degree: 'GSEB(XII)-HSC',
-      institution: '#',
+      institution: 'R.P.P Inter college',
       grades: 'Grade: 70.1% ',
-      year: ' [2020-2022]',
-      desc: "#",       
+      year: ' [2016-2017]',
+      desc: "I completed my 12th from R.P.P Inter college",       
     },
   ];
 
