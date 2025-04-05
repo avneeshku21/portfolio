@@ -7,38 +7,27 @@ import "swiper/css/pagination";
 const Project = () => {
   const projects = [
     {
-      // img: projectTwo,
-      name: "Tic tac  toc",
-      link: "https://game-project-seven-flax.vercel.app/",
-      
+      name: "Food Website",
+      live_link: "https://food-website-l2vd.vercel.app/",
     },
     {
-      // img: projectOne,
-      name: "Book",
-      link: "https://bookproject-preetidiwakargithubs-projects.vercel.app/",
-      
-    },
-       {
-      // img: projectThree,
-      name: "Lorem Text",
-      link: "https://lorem-pink.vercel.app/",
-     
+      name: "Movie Database API",
+      live_link: "https://movie-project-zeta-two.vercel.app/",
     },
     {
-      // img: projectFour,
-      name: "Food Menu",
-      link:
-        "https://restaurants-menu-six.vercel.app/",
-      
+      name: "Book Website",
+      live_link: "https://bookproject-preetidiwakargithubs-projects.vercel.app/",
     },
     {
-      // img: projectSix,
+      name: "Menu Website",
+      live_link: "https://restaurants-menu-six.vercel.app/",
+    },
+    {
       name: "Season Gallery",
-      link: "",
-    
+      live_link: "https://restaurants-menu-six.vercel.app/",
     },
-
   ];
+
   return (
     <section id="projects" className="py-20 text-white">
       <div className="text-center">
@@ -49,9 +38,9 @@ const Project = () => {
       </div>
       <br />
       <div className="flex max-w-6xl gap-6 px-5 mx-auto items-center relative">
-        <div className="lg:w-12/13 w-full h-full ">
+        <div className="lg:w-12/13 w-full h-full">
           <Swiper
-            slidesPerview={1.2}
+            slidesPerView={1.2}
             spaceBetween={20}
             breakpoints={{
               768: {
@@ -59,30 +48,32 @@ const Project = () => {
               },
             }}
             loop={true}
-            autoplay={{
-              delay: 3000,
-            }}
-            pagination={{
-              clickable: true,
-            }}
+            autoplay={{ delay: 3000 }}
+            pagination={{ clickable: true }}
             modules={[Pagination, Autoplay]}
           >
-            {projects.map((project_info, i) => (
+            {projects.map((project, i) => (
               <SwiperSlide key={i}>
                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img src={project_info.img} alt="" className="rounded-lg" />
-                  <h3 className="text-xl my-4">{project_info.name}</h3>
+                  {/* If you have images, insert here */}
+                  {/* <img src={project.img} alt={project.name} className="rounded-lg" /> */}
+                  <h3 className="text-xl my-4">{project.name}</h3>
                   <div className="flex gap-3">
+                    {/* Optional Github link if available */}
+                    {project.github_link && (
+                      <a
+                        href={project.github_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400 bg-gray-800 px-2 py-1 inline-block"
+                      >
+                        GitHub
+                      </a>
+                    )}
                     <a
-                      href={project_info.github_link}
+                      href={project.live_link}
                       target="_blank"
-                      className="text-blue-400 bg-gray-800 px-2 py-1 inline-block"
-                    >
-                      Github
-                    </a>
-                    <a
-                      href={project_info.live_link}
-                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-blue-400 bg-gray-800 px-2 py-1 inline-block"
                     >
                       Live
